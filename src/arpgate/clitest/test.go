@@ -13,4 +13,7 @@ func Runtest() {
 
 	config := cli.DeSerialize(yamlStr)
 	fmt.Println(config)
+
+	cli.ParseStrongSwan(config)
+	cli.RestartService(cli.SERVICE_STRONGSWAN)
 }

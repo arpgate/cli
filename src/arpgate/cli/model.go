@@ -2,6 +2,7 @@ package cli
 
 const VERSION = 0
 const RELEASE = "Allium"
+const TEMPLATEFOLDER = "/etc/arpgate/template/"
 
 type Configuration struct {
 	Release         string  `yaml:"release"`

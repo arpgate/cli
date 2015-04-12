@@ -13,3 +13,9 @@ SYNOPSIS
 -v Version
 
 
+Note
+====
+
+arpgate expects the templates in /etc/arpgate/templates
+
+sudo templates /etc/arpgate/templates for development

@@ -19,7 +19,7 @@ const SERVICE_NFINX = "nginx"
 const SERVICE_SNORT = "snort"
 
 func RestartService(name string) {
-	cmd := exec.Command("service "+name+" restart", "")
+	cmd := exec.Command("service", name, "restart")	
 	printCommand(cmd)
 	output, err := cmd.CombinedOutput()
 	printError(err)

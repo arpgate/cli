@@ -1,9 +1,16 @@
 # Cli
 Arpgate command line interface
 
-arpgate
+
+NAME
+     arpgate -- configure arpgate
+
+SYNOPSIS
+     arpgate [-hv] [options ...]
+
 
 -h Help
+
 -v Version
 
 

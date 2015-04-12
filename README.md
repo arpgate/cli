@@ -1,2 +1,9 @@
-# cli
-command line interface
+# Cli
+Arpgate command line interface
+
+arpgate
+
+-h Help
+-v Version
+
+
